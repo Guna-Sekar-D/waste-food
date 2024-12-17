@@ -1,0 +1,126 @@
+/* Container for the form */
+.food-form-container {
+    max-width: 600px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 1%;
+    margin-left: 53%;
+    padding: 20px;
+    border-radius: 30px;
+    padding: 40px;
+  }
+  
+  /* Heading styles */
+  .food-form-container h1 {
+    text-align: center; /* Center the heading */
+    color: beige; /* Dark color for the heading */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form field styles */
+  .food-form-container input,
+  .food-form-container textarea {
+    width: 100%; /* Full width for inputs and textarea */
+    padding: 10px; /* Padding inside the fields */
+    margin: 10px 0; /* Spacing between fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Textarea specific styles */
+  .food-form-container textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Set a minimum height */
+  }
+  
+  /* File input field styles */
+  .food-form-container input[type="file"] {
+    padding: 5px 0; /* Padding around the file input */
+  }
+  
+  /* Checkbox label styles */
+  .food-form-container label {
+    display: flex; /* Flex layout for the label */
+    align-items: center; /* Center align items vertically */
+    margin-top: 10px; /* Spacing above the label */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Button styles */
+  .food-form-container button {
+    width: 100%; /* Full width for buttons */
+    padding: 10px; /* Padding inside the buttons */
+    margin-top: 10px; /* Spacing above buttons */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #28a745; /* Success color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  /* Button hover effect */
+  .food-form-container button:hover {
+    border-style:groove;
+    border-color: ivory;
+    background-color: #146a17;
+  }
+  
+  /* Container for the buttons */
+  .clearfix {
+    display: flex;
+    justify-content: space-between; /* Space between the two buttons */
+    margin-top: 20px;
+  }
+  
+  /* Logout and View Donations buttons */
+  .clearfix button {
+    width: 48%; /* Make each button take half the space */
+    background-color: #dc3545; /* Danger color for Logout button */
+  }
+  
+  .clearfix button:hover {
+    background-color: #c82333; /* Darker shade on hover for Logout */
+  }
+  
+  /* Specific styles for View Donations button */
+  .clearfix button:nth-child(2) {
+    background-color: #007bff; /* Primary color for View Donations */
+  }
+  
+  .clearfix button:nth-child(2):hover {
+    background-color: #0056b3; /* Darker shade on hover for View Donations */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .food-form-container {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .food-form-container input,
+    .food-form-container textarea,
+    .food-form-container button {
+      font-size: 14px; /* Adjust font size */
+    }
+  
+    .clearfix {
+      flex-direction: column; /* Stack the buttons vertically */
+    }
+  
+    .clearfix button {
+      width: 100%; /* Full width for buttons */
+      margin-bottom: 10px; /* Space between stacked buttons */
+    }
+  }
+  .food-form-container:hover{
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style:groove
+  }

@@ -1,0 +1,69 @@
+/* HomePage.css */
+.homepage-container {
+  background-color:rgba(0,0, 0, 0.3);
+  display: inline-block;
+    text-align: center;
+    margin-top: 11%;
+    margin-left: 45%;
+    padding: 20px;
+    border-radius: 30px;
+    padding-top: 40px;
+    transition: border 1s;
+  }
+  
+  .homepage-container h1 {
+    color: beige;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-container p {
+    color: beige;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .primary-button {
+    background-color: black;
+    border:whitesmoke;
+    border-width: 0.1px;
+    border-style: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition:background-color 0.3s ease;
+    transition:border-width 0.3s ease;
+  }
+  
+  .primary-button:hover {
+    background-color: #1e601e;
+    border-width: 0.1px 0.1px 6px 0.1px;
+    
+  }
+  .homepage-container:hover{
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style:groove
+  }
+#one:hover{
+  border-width: 0.1px 0.1px 6px 6px;
+}
+#four:hover{
+  border-width: 0.1px 6px 6px 0.1px;
+}
+  

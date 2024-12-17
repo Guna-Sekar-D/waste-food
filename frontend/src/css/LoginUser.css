@@ -1,0 +1,59 @@
+/* LoginUser.css */
+.login-user-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 11%;
+    margin-left: 53%;
+    padding: 20px;
+    border-radius: 30px;
+    padding: 40px;
+  }
+  
+  .login-user-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: beige;
+  }
+  
+  .login-user-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-user-container input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-user-container input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(0, 204, 0, 0.3);
+  }
+  
+  .login-user-container button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-user-container button:hover {
+    border-style:groove;
+    border-color: ivory;
+    background-color: #146a17;
+  }
+  .login-user-container:hover{
+    border-color: aliceblue;
+    border-style: groove;
+    border-width:1px;
+  }
